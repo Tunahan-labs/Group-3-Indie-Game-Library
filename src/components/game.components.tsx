@@ -1,52 +1,45 @@
-import cupheadImage from "../assets/cuphead.webp";
-import celesteImage from "../assets/celeste.avif";
-import stardewValleyImage from "../assets/stardew-valley.jpg";
-import undertaleImage from "../assets/undertale.webp";
-import deadCellsImage from "../assets/dead-cells.jpg";
-import hollowKnightImage from "../assets/hollow-night.jpg";
-
 export const products: Product[] = [
   {
     id: 1,
     name: "Hollow Knight",
     genre: "Metroidvania",
     platform: "PC",
-    image: hollowKnightImage,
+    image: "/public/assets/HollowKnight.jpeg",
   },
   {
     id: 2,
     name: "Celeste",
     genre: "Platformer",
     platform: "PC",
-    image: celesteImage,
+    image: "/public/assets/Celeste.jpeg",
   },
   {
     id: 3,
     name: "Stardew Valley",
     genre: "Simulation",
     platform: "PC",
-    image: stardewValleyImage,
+    image: "/public/assets/Stardew.jpeg",
   },
   {
     id: 4,
     name: "Undertale",
     genre: "RPG",
     platform: "PC",
-    image: undertaleImage,
+    image: "/public/assets/Undertale.jpeg",
   },
   {
     id: 5,
     name: "Dead Cells",
     genre: "Metroidvania",
     platform: "PC",
-    image: deadCellsImage,
+    image: "/public/assets/DeadCells.jpeg",
   },
   {
     id: 6,
     name: "Cuphead",
     genre: "Run and Gun",
     platform: "PC",
-    image: cupheadImage,
+    image: "/public/assets/Cuphead.webp",
   },
 ];
 
