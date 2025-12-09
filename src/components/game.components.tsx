@@ -5,7 +5,7 @@ import undertaleImage from "../assets/undertale.webp";
 import deadCellsImage from "../assets/dead-cells.jpg";
 import hollowKnightImage from "../assets/hollow-night.jpg";
 
-export const Products: Product[] = [
+export const products: Product[] = [
   {
     id: 1,
     name: "Hollow Knight",
