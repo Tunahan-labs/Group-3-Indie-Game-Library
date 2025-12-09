@@ -1,11 +1,11 @@
-import cupheadImage from "../assets/cuphead.jpg";
-import hollowKnightImage from "../assets/hollow_knight.jpg";
-import celesteImage from "../assets/celeste.jpg";
-import stardewValleyImage from "../assets/stardew_valley.jpg";
-import undertaleImage from "../assets/undertale.jpg";
-import deadCellsImage from "../assets/dead_cells.jpg";
+import cupheadImage from "../assets/cuphead.webp";
+import celesteImage from "../assets/celeste.avif";
+import stardewValleyImage from "../assets/stardew-valley.jpg";
+import undertaleImage from "../assets/undertale.webp";
+import deadCellsImage from "../assets/dead-cells.jpg";
+import hollowKnightImage from "../assets/hollow-night.jpg";
 
-export const products: Product[] = [
+export const Products: Product[] = [
   {
     id: 1,
     name: "Hollow Knight",
