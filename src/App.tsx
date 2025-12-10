@@ -1,10 +1,9 @@
 import "./App.css";
-import GameList from "./components/GameList";
-
+import GameFilter from "./components/GameFilter.component";
 function App() {
   return (
     <div>
-      <GameList />
+      <GameFilter />
     </div>
   );
 }
