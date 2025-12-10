@@ -1,11 +1,12 @@
-import "./App.css";
+import React from "react";
 import GameFilter from "./components/GameFilter.component";
-function App() {
+
+const App: React.FC = () => {
   return (
-    <div>
+    <>
       <GameFilter />
-    </div>
+    </>
   );
-}
+};
 
 export default App;
