@@ -124,4 +124,64 @@ export const products: Product[] = [
     rating: 5,
     description: "Embark on the craziest journey of your life in It Takes Two.",
   },
+  {
+    id: 13,
+    name: "Fire Emblem Engage",
+    genre: "RPG",
+    platform: "Switch",
+    image: "/public/assets/FireEmblemEngage.avif",
+    rating: 4.5,
+    description:
+      "A tactical RPG featuring turn-based battles, deep character customization, and an engaging storyline.",
+  },
+  {
+    id: 14,
+    name: "Metroid Dread",
+    genre: "Action-Adventure",
+    platform: "Switch",
+    image: "/public/assets/MetroidDread.jpg",
+    rating: 4.6,
+    description:
+      "The latest installment in the Metroid series, featuring fast-paced action and exploration on a mysterious alien planet.",
+  },
+  {
+    id: 15,
+    name: "Animal Crossing: New Horizons",
+    genre: "Simulation",
+    platform: "Switch",
+    image: "/public/assets/AnimalCrossing-NewHorizons.avif",
+    rating: 4.7,
+    description:
+      "Create your own island paradise, interact with charming animal villagers, and enjoy a relaxing life simulation experience.",
+  },
+  {
+    id: 16,
+    name: "Super Mario Odyssey",
+    genre: "Platformer",
+    platform: "Switch",
+    image: "/public/assets/SuperMarioOdyssey.avif",
+    rating: 4.7,
+    description:
+      "Join Mario on a globe-trotting adventure to rescue Princess Peach from Bowser's wedding plans.",
+  },
+  {
+    id: 17,
+    name: "Pokémon Legends: Arceus",
+    genre: "RPG",
+    platform: "Switch",
+    image: "/public/assets/PokemonLegends-Arceus.avif",
+    rating: 4.9,
+    description:
+      "Explore the ancient Hisui region, capture and study Pokémon in a new action-RPG experience.",
+  },
+  {
+    id: 18,
+    name: "Splatoon 3",
+    genre: "Shooter",
+    platform: "Switch",
+    image: "/public/assets/Splatoon-3.avif",
+    rating: 4.8,
+    description:
+      "Dive into colorful, fast-paced multiplayer battles in the latest entry of the Splatoon series.",
+  },
 ];

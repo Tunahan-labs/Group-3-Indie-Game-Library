@@ -45,7 +45,7 @@ const StarRating: React.FC<StarRatingProps> = ({
             className={`${sizeClasses[size]} ${
               star <= rating
                 ? "text-yellow-400 fill-yellow-400"
-                : "text-gray-300 dark:text-gray-600 fill-gray-300 dark:fill-gray-600"
+                : "text-gray-900 dark:text-gray-900 fill-gray-900 dark:fill-gray-900"
             }`}
             fill="currentColor"
             viewBox="0 0 20 20"
@@ -56,7 +56,7 @@ const StarRating: React.FC<StarRatingProps> = ({
         </button>
       ))}
       {showNumber && (
-        <span className="ml-2 text-sm text-gray-600 dark:text-gray-400">
+        <span className="ml-2 text-sm text-gray-900 dark:text-gray-900">
           {rating.toFixed(1)}
         </span>
       )}

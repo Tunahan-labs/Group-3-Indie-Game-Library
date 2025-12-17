@@ -23,7 +23,7 @@ const GameModal: React.FC<GameModalProps> = ({ product, isOpen, onClose }) => {
         <div className="relative w-full max-w-4xl bg-white dark:bg-gray-800 rounded-2xl shadow-2xl overflow-hidden">
           <button
             onClick={onClose}
-            className="absolute top-4 right-4 z-10 p-2 rounded-full bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-colors"
+            className="absolute top-4 right-4 z-10 p-2 rounded-full bg-black/10 backdrop-blur-sm hover:bg-black/20 transition-colors"
           >
             <svg
               className="w-5 h-5 text-white"
@@ -58,7 +58,7 @@ const GameModal: React.FC<GameModalProps> = ({ product, isOpen, onClose }) => {
                   <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
                     {product.name}
                   </h2>
-                  <div className="flex items-center gap-4">
+                  <div className="flex items-center gap-4 mt-10">
                     <StarRating rating={product.rating} size="lg" showNumber />
                   </div>
                 </div>
